@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+/* CSS for image_links.html */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #e89a2e;
+    color: hsl(0, 0%, 100%);
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+S
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+section ul {
+    list-style-type: none;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+section {
+    padding: 20px;
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-grid a {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website!</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#menu">Menu</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to Technology world  Lets show you the tech world:</p>
+        <a href="#"><img src="tech.jpg" alt="Technology"></a>
+    </section>
+    
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <p>Check out our nature gallery:</p>
+        <div class="image-grid">
+            <a href="#"><img src="elephant.jpg" alt="wild animal"></a>
+            <a href="3"><img src="elephant.jpg" alt="wild animal"></a>
+            <a href="#"><img src="elephant.jpg" alt="wild animal"></a>
+            <!-- Add more images as needed -->
+        </div>
+    </section>
+    
+    <section id="menu">
+        <h2>Menu</h2>
+        <p>Check out our delicious menu:</p>
+        <ul class="flex-container">
+            <li><a href="https://example.com/food1"><img src="rolex.jpg" alt="local food" width="250" height="250"> matooke</a></li>
+            <li><a href="https://example.com/food2"><img src="rolex.jpg" alt="local food" width="250" height="250"> luwombo</a></li>
+            <li><a href="https://example.com/food3"><img src="rolex.jpg" alt="local food" width="250" height="250"> rolex</a></li>
+            <!-- Add more menu items as needed -->
+        </ul>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Your Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
